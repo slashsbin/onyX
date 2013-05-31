@@ -1,13 +1,26 @@
-# Bootstrap
-app/bootstrap*
+##### Eclipse ####
 
-# Symfony directories
-vendor/*
+*.pydevproject
+.project
+.metadata
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PDT-specific
+.buildpath
+
+#### Linux ####
+*~
+
+#### onyX ####
 */logs/*
 */cache/*
 web/uploads/*
-web/bundles/*
-
-# Configuration files
-app/config/parameters.ini
-app/config/parameters.yml
