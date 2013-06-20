@@ -1,0 +1,27 @@
+/*
+ *                  __  __
+ *  ___  _ __  _   _\ \/ /
+ * / _ \| '_ \| | | |\  / 
+ *| (_) | | | | |_| |/  \ 
+ * \___/|_| |_|\__, /_/\_\
+ *             |___/      
+ *
+ *      /sBin/onyX
+ */
+
+
+
+/* TEAM */
+                            
+/sBin: Mohammad Shokri
+eMail: shokri.md@gmail.com
+Site: http://slashsbin.com/
+Twitter: slashsbin
+
+
+                        
+
+/* SITE */
+
+Last update: Feb 2013
+Powered by: Silex + Twig + MonoLog + Doctrine
