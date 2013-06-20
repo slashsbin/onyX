@@ -23,5 +23,5 @@ Twitter: slashsbin
 
 /* SITE */
 
-Last update: Feb 2013
+Last update: Jun 2013
 Powered by: Silex + Twig + MonoLog + Doctrine
