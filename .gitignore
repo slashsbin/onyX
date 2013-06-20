@@ -21,6 +21,6 @@ local.properties
 *~
 
 #### onyX ####
-*/logs/*
-*/cache/*
-web/uploads/*
+logs/app_*.log
+cache/*
+!cache/.gitkeep
