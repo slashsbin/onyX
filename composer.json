@@ -1,6 +1,6 @@
 {
     "name": "slashsbin/onyx",
-    "description": "/sBin/onyX: My Taste of a Silex Skeleton & Structure",
+    "description": "/sBin/onyX: Rapid development + Pre-Configured skeleton for Silex MicroFramework",
     "type": "project",
     "keywords": ["microframework", "silex", "slashsBin"],
     "homepage": "https://github.com/slashsBin/onyX",
