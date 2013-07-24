@@ -1,12 +1,8 @@
 <?php
 
-use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\Response;
-use Silex\Provider\TwigCoreExtension;
-
 require_once __DIR__ . '/bootstrap.php';
 
-$app['twig'] = $app->share($app->extend('twig', function($twig, $app) {
+$app['twig'] = $app->share($app->extend('twig', function($twig) {
 	$twig->addGlobal('vendorVersions', implode(' | ', array(
 			'Sx:'.Silex\Application::VERSION,
 			'Tg:'.Twig_Environment::VERSION,

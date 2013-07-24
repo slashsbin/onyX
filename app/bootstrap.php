@@ -43,10 +43,4 @@ $app->register(new Silex\Provider\TranslationServiceProvider(), array(
 $app->register(new Silex\Provider\ValidatorServiceProvider());
 $app->register(new Silex\Provider\FormServiceProvider());
 
-$app->error(function (\Exception $e, $code) use ($app) {
-	if ($app['debug']) {
-		return;
-	}
-});
-
 $app['monolog']->addDebug('Bootstrap Completed');
