@@ -10,7 +10,7 @@ require __DIR__.'/config/'.$app['__ENV__'].'.php';
 
 if( $app['app.prerequisite.enforce'] ) {
 	$reqMsg = 'Unmet Dependencies for ' . $app['app.title'] . ' v' . $app['app.version'] . '[codeName '.$app['app.namespace'].']: ';
-	version_compare(PHP_VERSION, $app['app.prerequisite.phpVersion'], '>=') || die($reqMsg.'PHP v'.$app['app.prerequisite.phpVersion'].'+ [RUNTIME: '.PHP_VERSION.']');
+	version_compare(PHP_VERSION, $app['app.prerequisite.phpVersion'], '>=') || $app->abort(400, $reqMsg.'PHP v'.$app['app.prerequisite.phpVersion'].'+ [RUNTIME: '.PHP_VERSION.']');
 }
 
 $autoLoader->add($app['app.namespace'], __DIR__.'/model');
