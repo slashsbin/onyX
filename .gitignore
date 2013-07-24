@@ -20,6 +20,7 @@ local.properties
 *~
 
 #### onyX ####
+/composer.lock
 logs/app_*.log
 cache/*
 !cache/.gitkeep
