@@ -16,11 +16,13 @@ local.properties
 # PDT-specific
 .buildpath
 
+#### NetBeans ####
+nbproject
+
 #### Linux ####
 *~
 
 #### onyX ####
-/composer.lock
 logs/app_*.log
 cache/*
 !cache/.gitkeep
