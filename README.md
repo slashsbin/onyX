@@ -29,7 +29,7 @@ Installation
     ```javascript
     {
         "require": {
-            "slashsbin/onyx": "~1.0"
+            "slashsbin/onyx": "dev-master"
         }
     }
     ```
