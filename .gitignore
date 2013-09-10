@@ -23,7 +23,7 @@ nbproject
 *~
 
 #### onyX ####
-logs/app_*.log
+logz/app_*.log
 cache/*
 !cache/.gitkeep
 vendor/*
