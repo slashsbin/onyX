@@ -3,8 +3,9 @@ namespace Controller;
 
 use Symfony\Component\HttpFoundation\Request;
 use Silex\Application;
+use Controller\Controller as BaseController;
 
-class HomeController extends Controller {
+class HomeController extends BaseController {
 	
 	public function indexAction(Application $app, Request $request) {
 		
